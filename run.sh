@@ -8,3 +8,6 @@ docker run -d --rm -p 2222:22 \
 	-v ~/git-server/repos:/git-server/repos \
 	--name git-server  \
 	git-server
+
+
+# git clone ssh://git@0.0.0.0:2222/git-server/repos/myrepo.git
